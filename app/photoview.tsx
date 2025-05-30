@@ -16,7 +16,7 @@ export default function PhotoView() {
   const { removeImage } = useImages();
 
   // instantiate your Gemini client
-  const ai = new GoogleGenAI({ apiKey: 'AIzaSyDUXqhFiFYxIc9qJZzRztLbKVc8zXxpjpo' });
+  const ai = new GoogleGenAI({ apiKey: 'INSERT_API_KEY' });
 
 useEffect(() => {
   if (!uri) return;
