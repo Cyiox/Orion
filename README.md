@@ -1,10 +1,17 @@
 # Book Visual Processing App  
 
-### About
+## Todo
+
+- Currently, a call to Gemini is made every time an image is selected on the gallery. AI's image analysis should be saved and attached to the photo in order to improve speed and reduce API calls.
+- Separate the current gallery into two gallery sections. (Serials & Verso)
+- Add Serial or Verso indicated into the picture page on the camera page
+- Add an export feature to transcribe data into a CSV file. (**High Priority**)
+
+## About
 
 This project aims to extract metadata from a photo of a book, and import that information into a spreadsheet for further use. It is designed spefically to anaylize either the Verso of a book (The first page that features the ISBN), or libray assigned spine labels of a book. The format of the information provided will change accordlingly for both options. (For example, A verso analysis  will feature the ISBN, but the spine label will not.). The spreadsheet will either be exported into the phone's file system, or the user can sign into via google to export the spreadsheet directly into Google Sheets.
 
-### Usage 
+## Usage 
 
 **For General Use**
 
@@ -20,7 +27,7 @@ This project aims to extract metadata from a photo of a book, and import that in
 
 
 
-### For future devlopers
+## For future devlopers
 
 This project was created using the React Native framework, Expo bundler,  and primarly the Typescript language. The github respiratory link is:
 https://github.com/Cyiox/Orion

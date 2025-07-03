@@ -18,7 +18,6 @@ export const ImageProvider = ({ children }) => {
     };
     loadImages();
   }, []);
-
   useEffect(() => {
     const saveImages = async () => {
       try {
